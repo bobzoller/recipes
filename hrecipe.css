@@ -1,0 +1,125 @@
+body {
+  /*font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, sans-serif;*/
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+div.metadata-wrapper {
+  margin-top: 2em;
+  font-size: 85%;
+}
+
+div.metadata-wrapper p {
+  margin: 0;
+}
+
+div.metadata-wrapper p.author {
+  margin-top: 1em;
+}
+
+div.hrecipe {
+  border: 2px solid #000;
+  padding: .5em 1em;
+}
+
+div.hrecipe span.hrlabel {
+  font-weight: bold;
+}
+
+div.hrecipe h4 {
+  font-weight: bold;
+  font-size: 115%; 
+}
+
+div.hrecipe p.item {
+  font-size: 1.6em;
+  text-align: left;
+  margin-top: 0px !important; 
+}
+
+div.hrecipe p.summary {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+div.hrecipe p.ingredients {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+div.hrecipe p.yield {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+
+div.hrecipe div.ingredients {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+div.hrecipe div.quicknotes {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+div.hrecipe p.quicknotes {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+div.hrecipe div.variations {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+div.hrecipe p.variations {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+div.hrecipe ol.ingredients {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+div.hrecipe ol.ingredient {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+div.hrecipe blockquote.instructions {
+  margin: 1px 2px 1px 5px;
+  padding: 1px 2px 1px 5px;
+  color: #444;
+  font-size: 1em;
+  line-height: 100%;
+  text-align: left;
+  font-style: italic;
+  border-top: 2px solid #F4F4F4;
+  border-bottom: 2px solid #F4F4F4;
+  background-image: none;
+}
+
+div.hrecipe p.myrating {
+  font-weight: bold;
+}
+
+div.hrecipe img.hrecipe_image  {
+  border-width: 0px;
+  margin: 0px;
+  padding: 0px;
+  border-style: none;
+  margin-left: 1px;
+  margin-right: 1px;
+  border: none !important;
+}
+
+div.hrecipe legend {
+  background-color: white;
+  font-weight: bold;
+  margin-left: 2em;
+  border-style: solid;
+  border-width: thin;
+  padding-left: 1em;
+  padding-right: 1em;
+}
