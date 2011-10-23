@@ -12,7 +12,7 @@ div.metadata-wrapper p {
   margin: 0;
 }
 
-div.metadata-wrapper p.author {
+div.metadata-wrapper p.source {
   margin-top: 1em;
 }
 
@@ -41,63 +41,30 @@ div.hrecipe p.summary {
   margin-top: 0px;
 }
 
-div.hrecipe p.ingredients {
+div.hrecipe ul.ingredients {
   padding-top: 0px;
   margin-top: 0px;
 }
 
-div.hrecipe p.yield {
+div.hrecipe li.ingredient {
   padding-top: 0px;
   margin-top: 0px;
 }
 
-
-div.hrecipe div.ingredients {
-  padding-top: 0px;
-  margin-top: 0px;
-}
-
-div.hrecipe div.quicknotes {
-  padding-top: 0px;
-  margin-top: 0px;
-}
-
-div.hrecipe p.quicknotes {
-  padding-top: 0px;
-  margin-top: 0px;
-}
-
-div.hrecipe div.variations {
-  padding-top: 0px;
-  margin-top: 0px;
-}
-
-div.hrecipe p.variations {
-  padding-top: 0px;
-  margin-top: 0px;
-}
-
-div.hrecipe ol.ingredients {
-  padding-top: 0px;
-  margin-top: 0px;
-}
-
-div.hrecipe ol.ingredient {
-  padding-top: 0px;
-  margin-top: 0px;
-}
-
-div.hrecipe blockquote.instructions {
+div.hrecipe ul.instructions {
+  list-style: none;
   margin: 1px 2px 1px 5px;
   padding: 1px 2px 1px 5px;
-  color: #444;
-  font-size: 1em;
-  line-height: 100%;
   text-align: left;
   font-style: italic;
   border-top: 2px solid #F4F4F4;
   border-bottom: 2px solid #F4F4F4;
   background-image: none;
+  color: #444;
+}
+
+div.hrecipe li.instruction {
+  margin: 1em 0;
 }
 
 div.hrecipe p.myrating {
