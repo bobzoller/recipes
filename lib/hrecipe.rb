@@ -7,11 +7,11 @@ class Hrecipe < Mustache
     json.each {|k, v| self[k.to_sym] = v }
   end
 
-  def preptime
+  def format_preptime
     format_time(self[:preptime])
   end
 
-  def cooktime
+  def format_cooktime
     format_time(self[:cooktime])
   end
 
