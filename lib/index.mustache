@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Our Recipes</title>
+    <style type="text/css">
+      body {
+        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Our Recipes</h1>
+    <ul>
+      {{#links}}
+      <li><a href="{{href}}">{{text}}</a></li>
+      {{/links}}
+    </ul>
+  </body>
+</html>

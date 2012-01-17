@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="hrecipe.css">
+    <title>{{title}}</title>
+  </head>
+  <body>
+    <div class="hrecipe">
+      <h2 class="fn">{{title}}</h1>
+      <p class="summary">{{summary}}</p>
+      <div class="ingredients-wrapper">
+        <h4>Ingredients</h4>
+        <ul class="ingredients">
+          {{#ingredients}}
+          <li class="ingredient">{{.}}</li>
+          {{/ingredients}}
+        </ul>
+      </div>
+      <div class="instructions-wrapper">
+        <h4>Instructions</h4>
+        <ul class="instructions">
+          {{#instructions}}
+          <li class="instruction">{{.}}</li>
+          {{/instructions}}
+        </ul>
+      </div>
+      <div class="metadata-wrapper">
+        <p><span class="hrlabel">Yield: </span><span class="yield hritem">{{yield}}</span></p>
+        <p><span class="hrlabel">Prep time: </span><span class="preptime hritem">{{{preptime}}}</span></p>
+        <p><span class="hrlabel">Cook time: </span><span class="cooktime hritem">{{{cooktime}}}</span></p>
+        <p class="source"><span class="hrlabel">Source: </span><span class="hritem">{{source}}</span></p>
+      </div>
+    </div>
+  </body>
+</html>
