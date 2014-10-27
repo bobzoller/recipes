@@ -2,7 +2,6 @@ class Hrecipe < Mustache
   self.template_file = File.join(File.dirname(__FILE__), 'hrecipe.mustache')
 
   def initialize(recipe_id)
-    super
     json = JSON.parse(File.read(File.join(File.dirname(__FILE__), '..', "#{recipe_id}.json")))
     json.each {|k, v| self[k.to_sym] = v }
   end
